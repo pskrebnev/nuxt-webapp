@@ -1,7 +1,10 @@
 <template>
-  <div>
-    <NuxtLayout>
-      <NuxtPage />
-    </NuxtLayout>
-  </div>
+  <NuxtLayout>
+    <!-- <NuxtLoadingIndicator /> -->
+    <NuxtPage />
+  </NuxtLayout>
 </template>
+
+<!-- <script setup>
+const layout = "another";
+</script> -->
