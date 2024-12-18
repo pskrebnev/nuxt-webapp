@@ -6,19 +6,7 @@
           >Home</NuxtLink
         >
       </div>
-      <nav class="font-mono">
-        <ul class="flex space-x-4">
-          <li>
-            <NuxtLink to="/">Main Page</NuxtLink>
-          </li>
-          <li>
-            <NuxtLink to="/about">About Page</NuxtLink>
-          </li>
-          <li>
-            <NuxtLink to="/blog">My blog Page</NuxtLink>
-          </li>
-        </ul>
-      </nav>
+      <Menu />
       <slot name="header" />
     </header>
     <main class="p-4">
