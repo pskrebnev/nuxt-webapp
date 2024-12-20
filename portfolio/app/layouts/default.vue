@@ -9,8 +9,31 @@
       <Menu />
       <slot name="header" />
     </header>
-    <main class="p-4">
+    <main class="p-4 mt-10">
       <slot />
     </main>
   </div>
 </template>
+
+<script setup>
+useHead({
+  titleTemplate: "%s -- My Personal Website",
+  link: [
+    {
+      rel: "preconnect",
+      href: "https://fonts.googleapis.com",
+    },
+    {
+      rel: "stylesheet",
+      href: "https://fonts.googleapis.com/css2?family=Roboto&display=swap",
+      crossorigin: "",
+    },
+  ],
+});
+</script>
+
+<style>
+body {
+  font-family: "Roboto", sans-serif;
+}
+</style>

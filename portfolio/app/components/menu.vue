@@ -10,6 +10,9 @@
       <li>
         <NuxtLink to="/blog" class="link">My blog Page</NuxtLink>
       </li>
+      <li>
+        <NuxtLink to="/projects" class="link">My projects Page</NuxtLink>
+      </li>
     </ul>
   </nav>
 </template>
