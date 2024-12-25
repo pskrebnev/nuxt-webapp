@@ -1,9 +1,11 @@
 <template>
   <div>We are inside the blog!</div>
-  <div>Post id is {{ route.params.id }}</div>
+  <article>
+    <ContentDoc />
+  </article>
 </template>
 
 <script setup>
 const route = useRoute();
-// console.log(route);
+console.log(route.params.slug);
 </script>
