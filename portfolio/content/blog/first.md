@@ -1,3 +1,20 @@
+---
+title: "Title of the first page"
+description: "Description of the first page"
+head:
+  meta:
+    - name: "keywords"
+      content: "nuxt, vue, content"
+    - name: "robots"
+      content: "index, follow"
+    - name: "author"
+      content: "NuxtLabs"
+    - name: "copyright"
+      content: "© 2024 NuxtLabs"
+    - name: "og:title"
+      content: "This is the OpenGraph title"
+---
+
 # First post on our website
 
 ## Introduction

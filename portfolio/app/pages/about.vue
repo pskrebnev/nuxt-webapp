@@ -1,8 +1,7 @@
 <template>
-  <div>This page is about me!</div>
-  <!-- <div>
-    <button @click="enableCustomLayout">Update layout</button>
-  </div> -->
+  <article class="prose prose-h1:text-2xl">
+    <ContentDoc path="about/" />
+  </article>
 </template>
 
 <script setup>

@@ -2,6 +2,7 @@ import type { Config } from "tailwindcss";
 
 module.exports = {
   darkMode: "class",
+  plugins: [require("@tailwindcss/typography")],
 };
 
 export default {

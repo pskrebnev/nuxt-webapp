@@ -1,6 +1,6 @@
 <template>
   <div>We are inside the blog!</div>
-  <article>
+  <article class="prose">
     <ContentDoc />
   </article>
 </template>
